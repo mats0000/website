@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "module": "ES2015",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": ["ES2019"]
+  },
+  "include": ["src/models/**/*.ts"],
+  "exclude": ["node_modules"]
+}
